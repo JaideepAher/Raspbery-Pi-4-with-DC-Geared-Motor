@@ -40,10 +40,19 @@ Sturdy  relimate connector is used for position encoder signals and motor power.
 
 # Motor Driver
 
-## # ![image](https://user-images.githubusercontent.com/59818448/151838856-9c4d1e80-487b-4ce8-b402-3f199c5e2c4b.png)
+## ![L298N-Module-Pinout](https://user-images.githubusercontent.com/59818448/152600308-a99751ab-528f-4a28-8b62-511ba21a5a15.jpg)
+
 
 
 L298 Dual H Bridge Motor Driver
+
+Brief about L298N Module
+
+The L298N Motor Driver module consists of an L298 Motor Driver IC, 78M05 Voltage Regulator, resistors, capacitor, Power LED, 5V jumper in an integrated circuit. 78M05 Voltage regulator will be enabled only when the jumper is placed. When the power supply is less than or equal to 12V, then the internal circuitry will be powered by the voltage regulator and the 5V pin can be used as an output pin to power the microcontroller. The jumper should not be placed when the power supply is greater than 12V and separate 5V should be given through 5V terminal to power the internal circuitry.
+
+ 
+
+ENA & ENB pins are speed control pins for Motor A and Motor B while IN1& IN2 and IN3 & IN4 are direction control pins for Motor A and Motor B.
 
 # Pin Connections
 
